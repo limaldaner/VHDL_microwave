@@ -1,0 +1,44 @@
+
+
+
+                        Clock Frequency Report
+
+	Clock                : Frequency
+      ------------------------------------
+
+	clk                  : 233.9 MHz
+
+
+                        Critical Path Report
+
+Critical path #1, (unconstrained path)
+NAME                                  GATE              ARRIVAL              LOAD
+---------------------------------------------------------------------------------
+clock information not specified
+delay thru clock network                                0.00 (ideal)
+
+
+reg_current_state(0)/Q                DFC1        0.00  1.00 dn             0.11
+ix167/Q                               NAND21      0.60  1.60 up             0.07
+ix594/Q                               CLKIN1      0.26  1.86 dn             0.03
+ix650/Q                               NAND31      0.43  2.29 up             0.05
+ix27/Q                                CLKIN1      0.17  2.46 dn             0.02
+ix37/Q                                OAI211      0.25  2.71 up             0.02
+ix639/Q                               NAND41      0.08  2.80 dn             0.02
+ix95/Q                                OAI2111     0.73  3.53 up             0.09
+ix149/Q                               NOR31       0.34  3.87 dn             0.01
+ix616/Q                               AOI311      0.29  4.16 up             0.01
+ix157/Q                               OAI211      0.12  4.27 dn             0.01
+reg_current_state(1)/D                DFC1        0.00  4.27 dn             0.00
+data arrival time                                       4.27
+
+
+data required time                                   not specified
+---------------------------------------------------------------------------------
+data required time                                   not specified
+data arrival time                                       4.27
+                                                     ----------
+                                                  unconstrained path
+---------------------------------------------------------------------------------
+
+

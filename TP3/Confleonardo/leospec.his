@@ -1,0 +1,12 @@
+#
+#
+# 
+# Mon 04 Jan 2021 04:00:29 PM CET
+load_library c35_CORELIB
+set encoding Gray
+read -technology "c35_CORELIB"  { /tp/xm2mist/xm2mist023/tp_vhdl_msn/TP3/Sources/ctrl_oven.vhd /tp/xm2mist/xm2mist023/tp_vhdl_msn/TP3/Sources/ctrl_oven_behavioral.vhd }
+pre_optimize -common_logic -unused_logic -boundary -xor_comparator_optimize 
+pre_optimize -extract 
+optimize .work.ctrl_oven.behavioral -target c35_CORELIB -macro -area -effort quick -hierarchy auto 
+optimize_timing .work.ctrl_oven.behavioral 
+report_delay /tp/xm2mist/xm2mist023/tp_vhdl_msn/TP3/area_optimization/report_delay_gray -num_paths 1 -critical_paths -clock_frequency

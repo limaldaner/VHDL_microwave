@@ -1,0 +1,58 @@
+LeonardoSpectrum Level 3 - 2014a.12 (Release Production Release, compiled Jan 31 2014 at 12:06:27)
+Copyright 1990-2014 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2014 Compuware Corporation
+
+Session history will be logged to file '/tp/xm2mist/xm2mist023/tp_vhdl_msn/TP3/Confleonardo/leospec.his'
+--
+-- Welcome to LeonardoSpectrum Level 3
+-- Run Started On Mon Jan 04 04:00:29 PM CET 2021
+--
+Reading library file `/softslin/leonardo2014a/lib/c35_CORELIB.syn`...
+Delays assume: Process=typical Temp= 25.0 C  Voltage=3.30 V  
+Info: setting encoding to auto
+Info, Command 'load_library' finished successfully
+Info: setting encoding to Gray
+Gray
+-- Reading file /softslin/leonardo2014a/data/standard.vhd for unit standard
+-- Loading package standard into library std
+-- Reading vhdl file /tp/xm2mist/xm2mist023/tp_vhdl_msn/TP3/Sources/ctrl_oven.vhd into library work
+-- Reading file /softslin/leonardo2014a/data/std_1164.vhd for unit std_logic_1164
+-- Loading package std_logic_1164 into library IEEE
+-- Reading file /softslin/leonardo2014a/data/numeric_std.vhd for unit numeric_std
+-- Loading package NUMERIC_STD into library IEEE
+-- Loading entity ctrl_oven into library work
+-- Reading vhdl file /tp/xm2mist/xm2mist023/tp_vhdl_msn/TP3/Sources/ctrl_oven_behavioral.vhd into library work
+"/tp/xm2mist/xm2mist023/tp_vhdl_msn/TP3/Sources/ctrl_oven_behavioral.vhd",line 8: Info, Enumerated type type_state with 8 elements encoded as Gray.
+Encodings for type_state values
+        value    type_state[2-0]
+================================
+           idle  000
+  full_power_on  001
+  half_power_on  011
+      set_timer  010
+operation_disabled  110
+operation_enabled  111
+      operating  101
+        complet  100
+
+-- Loading architecture behavioral of ctrl_oven into library work
+-- Compiling root entity ctrl_oven(behavioral)
+Info, Command 'read' finished successfully
+-- Boundary optimization.
+-- Start pre-optimization for design .work.ctrl_oven.behavioral
+Info, Command 'pre_optimize' finished successfully
+-- Start pre-optimization for design .work.ctrl_oven.behavioral
+Info, Command 'pre_optimize' finished successfully
+Using first wire table: 10k
+-- Optimizing netlist .work.ctrl_oven.behavioral
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Info, Command 'optimize' finished successfully
+-- Start timing optimization for design .work.ctrl_oven.behavioral
+No critical paths to optimize at this level
+Info, Command 'optimize_timing' finished successfully
+Using first wire table: 10k
+Info, Command 'report_delay' finished successfully

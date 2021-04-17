@@ -1,0 +1,32 @@
+#
+# MENTOR GRAPHICS ModelSim version 10.2c 
+#
+
+export MTI_HOME=/softslin/modelsim10_2c/modeltech
+export PATH="$PATH:$MTI_HOME/`$MTI_HOME/vco`"
+
+
+if [ -n "${LM_LICENSE_FILE}" ] ; then
+    export LM_LICENSE_FILE="${LM_LICENSE_FILE}:1718@cimekey1"
+else
+    export LM_LICENSE_FILE="1718@cimekey1"
+fi
+
+# export MODELSIM="${HOME}/synthesis_linux_64b/modelsim.ini"
+
+#
+# MENTOR GRAPHICS Leonardo 2013a session
+#
+
+export EXEMPLAR=/softslin/leonardo2013a
+
+export PATH="${PATH}:${EXEMPLAR}/bin"
+
+#
+# MENTOR GRAPHICS Precision Synthesis 2013a_9_64b session in 64-bit mode
+#
+
+export PRECISION_HOME=/softslin/precision2013a_9_64b/Mgc_home
+
+export PATH="${PATH}:${PRECISION_HOME}/bin"
+

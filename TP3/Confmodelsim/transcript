@@ -1,0 +1,75 @@
+# //  ModelSim SE-64 10.2c Jul 18 2013 Linux 3.2.0-4-amd64
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+vsim LIB_TP3_BENCH.bench_ctrl_oven
+# vsim LIB_TP3_BENCH.bench_ctrl_oven 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading LIB_TP3_BENCH.bench_ctrl_oven(test)
+# Loading ieee.vital_timing(body)
+# Loading c35_corelib.vcomponents
+# Loading lib_tp3.ctrl_oven(behavioral_gray)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Instance: /bench_ctrl_oven/dut
+# Loading ieee.vital_primitives(body)
+# Loading c35_corelib.vtables
+# Loading c35_corelib.oai211(vital)
+# Loading c35_corelib.clkin1(vital)
+# Loading c35_corelib.aoi221(vital)
+# Loading c35_corelib.nand31(vital)
+# Loading c35_corelib.nor21(vital)
+# Loading c35_corelib.df1(vital)
+# Loading c35_corelib.aoi211(vital)
+# Loading c35_corelib.nor40(vital)
+# Loading c35_corelib.oai2111(vital)
+# Loading c35_corelib.nand21(vital)
+# Loading c35_corelib.aoi2111(vital)
+# Loading c35_corelib.nor31(vital)
+# Loading c35_corelib.aoi311(vital)
+# Loading c35_corelib.oai311(vital)
+vsim LIB_TP3_BENCH.config_bench_ctrl_oven_behavioral_all
+# vsim LIB_TP3_BENCH.config_bench_ctrl_oven_behavioral_all 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading LIB_TP3_BENCH.config_bench_ctrl_oven_behavioral_all
+# Loading LIB_TP3_BENCH.bench_ctrl_oven(test)
+# Loading lib_tp3.ctrl_oven(behavioral)
+# Loading ieee.vital_timing(body)
+# Loading c35_corelib.vcomponents
+# Loading lib_tp3.ctrl_oven(behavioral_binary)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Instance: /bench_ctrl_oven/dutB
+# Loading ieee.vital_primitives(body)
+# Loading c35_corelib.vtables
+# Loading c35_corelib.oai211(vital)
+# Loading c35_corelib.nand31(vital)
+# Loading c35_corelib.nand41(vital)
+# Loading c35_corelib.aoi211(vital)
+# Loading c35_corelib.oai2111(vital)
+# Loading c35_corelib.nor21(vital)
+# Loading c35_corelib.nand21(vital)
+# Loading c35_corelib.clkin1(vital)
+# Loading c35_corelib.df1(vital)
+# Loading c35_corelib.aoi2111(vital)
+# Loading c35_corelib.nor40(vital)
+# Loading c35_corelib.nor31(vital)
+# Loading c35_corelib.aoi221(vital)
+# Loading c35_corelib.aoi311(vital)
+# Loading c35_corelib.oai311(vital)
+# Loading c35_corelib.oai221(vital)
+# Loading lib_tp3.ctrl_oven(behavioral_gray)
+# Loading lib_tp3.ctrl_oven(behavioral_onehot)
+# Loading c35_corelib.xnr21(vital)
+add wave -position insertpoint sim:/bench_ctrl_oven/dut/*
+do /tp/xm2mist/xm2mist023/tp_vhdl_msn/TP3/Confmodelsim/wave_ctrl_oven.do
+run -all

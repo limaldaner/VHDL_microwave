@@ -1,0 +1,125 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 d/tp/xm2mist/xm2mist023/tp_vhdl_msn/TP3/Sources
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+Ectrl_oven
+Z1 w1606752952
+Z2 DPx4 ieee 11 numeric_std 0 22 WES[o8HS0jHV[MIXQk2Ha1
+Z3 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z5 d/tp/xm2mist/xm2mist023/tp_vhdl_msn/TP3/Sources
+8ctrl_oven.vhd
+Fctrl_oven.vhd
+l0
+L5
+VKoh;<_XP80[7JiDHcoTNE1
+Z6 OL;C;10.2c;57
+32
+Z7 o+cover=bfs -work LIB_TP3
+Z8 !s110 1609777911
+Z9 !s102 +cover=bfs
+!s100 BQ_NCe>?1Nk3JK8Y9GbYC3
+!i10b 1
+!s108 1609777911.554193
+!s90 +cover=bfs|-work|LIB_TP3|ctrl_oven.vhd|
+!s107 ctrl_oven.vhd|
+!i111 1
+Abehavioral_gray
+w1609777843
+R2
+Z10 DEx4 work 9 ctrl_oven 0 22 Koh;<_XP80[7JiDHcoTNE1
+Z11 DPx4 ieee 12 vital_timing 0 22 4Obk6FzZz7P8i2>0<?dVb3
+Z12 DPx11 c35_corelib 11 vcomponents 0 22 [Pc9bhg@G4V@:e4`AMgng0
+R3
+R4
+8area_optimization/ctrl_oven_behavioral_gray.vhd
+Farea_optimization/ctrl_oven_behavioral_gray.vhd
+l25
+L16
+VKLDz?^25gMNR50mM1Hmmh1
+!s100 ]U^h<OR2doc]R?ZY?44en2
+R6
+32
+!s110 1609777912
+!i10b 1
+!s108 1609777912.035673
+!s90 +cover=bfs|-work|LIB_TP3|area_optimization/ctrl_oven_behavioral_gray.vhd|
+!s107 area_optimization/ctrl_oven_behavioral_gray.vhd|
+!i111 1
+R9
+R7
+Abehavioral_onehot
+w1609777836
+R2
+R10
+R11
+R12
+R3
+R4
+8area_optimization/ctrl_oven_behavioral_onehot.vhd
+Farea_optimization/ctrl_oven_behavioral_onehot.vhd
+l26
+L16
+V]4136BOjR2_7C61B@JZGK0
+R6
+32
+R8
+R9
+R7
+!s100 z2LXTmn7d1lYM9YFP5kbQ0
+!i10b 1
+!s108 1609777911.888211
+!s90 +cover=bfs|-work|LIB_TP3|area_optimization/ctrl_oven_behavioral_onehot.vhd|
+!s107 area_optimization/ctrl_oven_behavioral_onehot.vhd|
+!i111 1
+Abehavioral_binary
+w1609777821
+R2
+R10
+R11
+R12
+R3
+R4
+8area_optimization/ctrl_oven_behavioral_binary.vhd
+Farea_optimization/ctrl_oven_behavioral_binary.vhd
+l25
+L16
+VL^G__UXYLnR8B>S`VTh>[0
+R6
+32
+R8
+R9
+R7
+!s100 nHCZSA:kn<H`6EARXRJJY3
+!i10b 1
+!s108 1609777911.734015
+!s90 +cover=bfs|-work|LIB_TP3|area_optimization/ctrl_oven_behavioral_binary.vhd|
+!s107 area_optimization/ctrl_oven_behavioral_binary.vhd|
+!i111 1
+Abehavioral
+R10
+R2
+R3
+R4
+8ctrl_oven_behavioral.vhd
+Fctrl_oven_behavioral.vhd
+l13
+L5
+VlJY5g1mR[XST4>QT`a0OO0
+R6
+32
+R8
+R9
+R7
+!s100 T?^3aHH6i96>R4DPFVeQZ0
+!i10b 1
+!s108 1609777911.653404
+!s90 +cover=bfs|-work|LIB_TP3|ctrl_oven_behavioral.vhd|
+!s107 ctrl_oven_behavioral.vhd|
+!i111 1

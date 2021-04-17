@@ -1,0 +1,14 @@
+#
+# MENTOR GRAPHICS Leonardo 2014a session
+#
+
+export EXEMPLAR=/softslin/leonardo2014a
+
+export PATH="${PATH}:${EXEMPLAR}/bin"
+
+if [ -n "${LM_LICENSE_FILE}" ] ; then
+    export LM_LICENSE_FILE="${LM_LICENSE_FILE}:1718@cimekey1"
+else
+    export LM_LICENSE_FILE="1718@cimekey1"
+fi
+
